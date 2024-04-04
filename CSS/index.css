@@ -10,11 +10,9 @@ header{
     padding-bottom: 10px;
 }
 
-h1{
-    font-family: "Press Start 2P";
-    color:#FFF;
-    font-size: 20px;
-    text-shadow: 5px 5px 0 #000;
+.logo{
+    width: 65px;
+    height: 65px;
 }
 
 nav {
