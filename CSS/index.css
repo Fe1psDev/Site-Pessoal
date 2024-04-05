@@ -32,22 +32,7 @@ a{
     align-items: center;
     color: #FFF;
     font-size: 20px;
-    font-family: "Fira Code";
     font-weight: 500;
- 
     text-decoration: none;
     margin-right: 30px;
-}
-
-#button {
-    display: inline-block;
-    background-color: #F71735;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0px;
-    transition: background-color linear 250ms;
-}
-
-#button:hover {
-    background-color: #F38375;
 }
