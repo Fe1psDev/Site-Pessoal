@@ -48,6 +48,15 @@ a{
     transition: background-color linear 250ms;
 }
 
-#button:hover{
+#button:hover {
     background-color: #F38375;
+}
+
+main {
+    display:inline-block;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 500px;
 }
