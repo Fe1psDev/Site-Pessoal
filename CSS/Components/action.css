@@ -1,9 +1,10 @@
 .action:before{
     content: "";
-    background-color: #F71735;
+    background-color: #FF3864;
     width: 10px;
     height: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .action{

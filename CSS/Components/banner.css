@@ -1,0 +1,25 @@
+.banner {
+    background-image: url(../../assets/img/Logo-3d-opaca.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+    background-position: center center;
+    border-bottom: 10px solid #000;
+    padding-left: 90px;
+    padding-top: 115px;
+}
+
+.banner .wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.banner .box{
+    margin-bottom: 38px;
+}
+
+.banner .navigation {
+    display:flex;
+    justify-content: space-around;
+}
