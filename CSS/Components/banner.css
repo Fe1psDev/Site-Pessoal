@@ -1,8 +1,9 @@
 .banner {
-    background-image: url(../../assets/img/Logo-3d-opaca.jpg);
+    background-color: #000;
+    background-image: url(../../assets/img/png-ícone-opaco.png);
     background-repeat: no-repeat;
-    height: 600px;
-    background-size: 100%;
+    height: 80vh;
+    background-size: 50%;
     background-position: center center;
     border-bottom: 10px solid #000;
     padding-left: 90px;
