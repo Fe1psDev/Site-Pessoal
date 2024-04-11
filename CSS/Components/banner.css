@@ -2,16 +2,18 @@
     background-color: #000;
     background-image: url(../../assets/img/png-ícone-opaco.png);
     background-repeat: no-repeat;
-    height: 70vh;
     background-size: 40%;
     background-position: center center;
     border-bottom: 10px solid #000;
-    padding-top: 130px;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding: 130px;
+    border-bottom: 10px solid #232321;
+}
+
+.banner .main-title{
+    text-shadow: 1px 1px 2px #fff;
+    text-align: left;
 }
 
 .banner .wrapper{
-    display: inline-block;
-    flex-direction: column;
+    text-align: justify;
 }
