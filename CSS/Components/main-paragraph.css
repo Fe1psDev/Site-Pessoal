@@ -1,0 +1,11 @@
+.main-paragraph{
+    font-family: "MontSerrat";
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.main-paragraph.-sobre{
+    padding: 0 80px;
+    line-height: 1.3;
+}

@@ -2,7 +2,7 @@
     background-color: #0676C2;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid #808080;
+    border-bottom: 3px solid #ccc;
 }
 
 .section .main-title{
@@ -11,5 +11,8 @@
 
 .section.-projects{
     background-color: #232321;
-    border-bottom: 10px solid #808080;
+}
+
+.section.-sobre{
+    justify-content: center;
 }
