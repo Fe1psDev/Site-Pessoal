@@ -1,16 +1,22 @@
-.skills-tec{
+.skill-tec{
     display: flex;
+    align-items: center;
     font-family: "Tilt Neon";
     font-size: 25px;
     color: #fff;
 }
 
-.skills-tec .icon{
+.skill-tec .icon{
     margin-right: 25px;
+    width: 90px;
 }
 
-.skills-tec .rigth{
+.skill-tec .rigth{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tec .title{
+    margin-bottom: 12px;
 }

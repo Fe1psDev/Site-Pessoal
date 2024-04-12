@@ -1,4 +1,4 @@
-.button {
+.button-priority {
     display: inline-block;
     background-color: #FF3864;
     padding: 18px 20px;
@@ -10,6 +10,6 @@
     text-decoration: none;
 }
 
-.button:hover {
+.button-priority:hover {
     background-color: #b4426d;
 }

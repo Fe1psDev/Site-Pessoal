@@ -1,4 +1,4 @@
-.action:before{
+.action-anchor:before{
     content: "";
     background-color: #FF3864;
     width: 10px;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 
-.action{
+.action-anchor{
     display: inline-flex;
     align-items: center;
     color: #FFF;

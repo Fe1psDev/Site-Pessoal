@@ -17,32 +17,32 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/Components/button.css">
-        <link rel="stylesheet" href="CSS/Components/action.css">
-        <link rel="stylesheet" href="CSS/Components/header.css">
+        <link rel="stylesheet" href="CSS/Components/header-primary.css">
         <link rel="stylesheet" href="CSS/Components/logo.css">
-        <link rel="stylesheet" href="CSS/Components/banner.css">
+        <link rel="stylesheet" href="CSS/Components/action-anchor.css">
+        <link rel="stylesheet" href="CSS/Components/button-priority.css">
+        <link rel="stylesheet" href="CSS/Components/banner-home.css">
         <link rel="stylesheet" href="CSS/Components/main-title.css">
         <link rel="stylesheet" href="CSS/Components/paragraph.css">
         <link rel="stylesheet" href="CSS/Components/section.css">
-        <link rel="stylesheet" href="CSS/Components/subtitle.css">
-        <link rel="stylesheet" href="CSS/Components/skills-tec.css">
+        <link rel="stylesheet" href="CSS/Components/skill-tec.css">
+        <link rel="stylesheet" href="CSS/Components/wrapper-skill.css">
         <link rel="stylesheet" href="CSS/Components/progress-bar.css">
 
     </head>
     <body>
-        <header class="header">
+        <header class="header-primary">
             <img class="logo" src="assets/img/PNG LOGO BRANCO.png">
             <nav>
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" href="">Dowload CV</a>
+                <a class="action-anchor" href="" lang="en">Skills</a>
+                <a class="action-anchor" href="">Projetos</a>
+                <a class="action-anchor" href="">Sobre</a>
+                <a class="action-anchor" href="">Contatos</a>
+                <a class="button-priority" href="">Dowload CV</a>
             </nav>
         </header>
 
-        <section class="banner">
+        <section class="banner-home">
             <div class="wrapper">
                 <h2 class="main-title">Já imaginou ter um site 100% personalizado para sua empresa ou negócio?</h2>
                 <div class="divp1">
@@ -53,26 +53,28 @@
 
         <section class="section">
             <h2 class="main-title -second">Skills</h2>
-            
-            <article class="skills-tec">
-                <img class="icon" src="assets/img/icon-html5.png" alt="Logo do HTML5">
-                <div class="rigth">
-                    <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
 
-            <article class="skills-tec">
-                <img class="icon" src="assets/img/icon-html3.png" alt="Logo do CSS3">
-                <div class="rigth">
-                    <h3 class="title">CSS</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
+            <div class="wrapper-skill">
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon-html5.png" alt="Logo do HTML5">
+                    <div class="rigth">
+                        <h3 class="title">HTML</h3>
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
+                        </progress>
+                    </div>
+                </article>
+
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon-html3.png" alt="Logo do CSS3">
+                    <div class="rigth">
+                        <h3 class="title">CSS</h3>
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
+                        </progress>
+                    </div>
+               </article>
+            </div>
         </section>
 
     </body>

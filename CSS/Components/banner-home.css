@@ -1,19 +1,29 @@
-.banner {
+.banner-home {
     background-color: #000;
     background-image: url(../../assets/img/png-ícone-opaco.png);
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center center;
-    border-bottom: 10px solid #000;
-    padding: 130px;
+    padding: 110px;
     border-bottom: 10px solid #232321;
 }
 
-.banner .main-title{
+.banner-home .main-title{
     text-shadow: 1px 1px 2px #fff;
     text-align: left;
 }
 
-.banner .wrapper{
+.banner-home .divp1 {
+   width: 70%
+}
+
+.banner-home .paragraph{
+        font-family: "MontSerrat";
+        color: #fff;
+        font-size: 25px;
+        text-align: justify;;
+}
+
+.banner-home .wrapper{
     text-align: justify;
 }
