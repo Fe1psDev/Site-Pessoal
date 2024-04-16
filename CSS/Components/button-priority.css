@@ -13,3 +13,7 @@
 .button-priority:hover {
     background-color: #b4426d;
 }
+
+.button-priority.-full{
+    width: 100%;
+}

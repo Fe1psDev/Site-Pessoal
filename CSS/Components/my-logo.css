@@ -1,4 +1,10 @@
 .my-logo{
-    width: 120px;
-    height: 65px;
+    width: 100px;
+    height: 55px;
+}
+
+.my-logo.-card{
+    width: 130px;
+    height: 90px;
+    padding-top: 15px;
 }

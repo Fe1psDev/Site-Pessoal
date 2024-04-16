@@ -5,13 +5,13 @@
 }
 
 
-body, h1, h2, h3, figure{
+body, h1, h2, h3, figure, input{
     padding: 0;
     margin: 0;
 }
 
-button {
+ *{
     border: none;
-    font-family: inherit;
+    font-family: "montserrat";
 }
 

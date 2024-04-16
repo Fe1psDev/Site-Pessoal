@@ -38,17 +38,18 @@
         <link rel="stylesheet" href="CSS/Components/title-paragraph.css">
         <link rel="stylesheet" href="CSS/Components/main-footer.css">
         <link rel="stylesheet" href="CSS/Components/main-label.css">
+        <link rel="stylesheet" href="CSS/Components/main-input.css">
+        <link rel="stylesheet" href="CSS/Components/main-form.css">
 
     </head>
     <body>
         <header class="header-primary">
             <img class="my-logo" src="assets/img/PNG LOGO BRANCO.png">
             <nav>
-                <a class="action-anchor" href="" lang="en">Skills</a>
-                <a class="action-anchor" href="">Projetos</a>
-                <a class="action-anchor" href="">Sobre</a>
-                <a class="action-anchor" href="">Contatos</a>
-                <a class="button-priority" href="">Dowload CV</a>
+                <a class="action-anchor" href="#sobre">Sobre</a>
+                <a class="action-anchor" href="#skills" lang="en">Skills</a>
+                <a class="action-anchor" href="#projetos">Projetos</a>
+                <a class="action-anchor" href="#contatos">Contatos</a>
             </nav>
         </header>
 
@@ -61,7 +62,7 @@
             </div>
         </section>
 
-        <section class="section -sobre">
+        <section id="sobre" class="section -sobre">
             <div class="wrapper-sobre">
                 <div class="title-paragraph">
                     <h2 class="main-title -second"><strong>Sobre</strong></h2>
@@ -73,7 +74,7 @@
                 </div>
         </section>
 
-        <section class="section -skills">
+        <section id="skills" class="section -skills">
             <h2 class="main-title -second"><strong>Skills</strong></h2>
 
             <div class="wrapper-skill">
@@ -91,29 +92,31 @@
             </div>
         </section>
 
-        <section class="section -projects">
+        <section id="projetos" class="section -projects">
             <h2 class="main-title -second"><strong>Projetos</strong></h2>
             <div class="wrapper-card">
                 <a href="https://fe1psdev.github.io/Site-Pessoal/">
                     <figure class="card-project -felipe-oliveira">
-                        <img src="assets/img/logo-branco-245x254.png" alt="Logo do Felipe Oliveira DEV">
+                        <img class="my-logo -card" src="assets/img/logo-branco-245x254.png" alt="Logo do Felipe Oliveira DEV">
                     </figure>
                 </a>
             </div>
 
         </section>
 
-        <form action="">
+        <form id="contatos" class="main-form">
+            <legend class="main-title -second"><strong>Contatos</strong></legend>
+
             <label class="main-label" for="name">Nome</label>
-            <input id="name" type="text">
+            <input class="main-input" id="name" type="text" required>
 
             <label class="main-label" for="email">Email</label>
-            <input id="email" type="email">
+            <input class="main-input" id="email" type="email" required>
 
             <label class="main-label" for="message">Mensagem</label>
-            <textarea id="message"></textarea>
+            <textarea class="main-input -textarea" id="message" required></textarea>
 
-            <input type="submit" value="Enviar">
+            <input class="button-priority -full" type="submit" value="Enviar">
         </form>
 
         <footer class="main-footer">
