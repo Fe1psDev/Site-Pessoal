@@ -1,17 +1,17 @@
 .section{
-    background-color: #232321;
+    background-color: #001;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 3px solid #ccc;
 }
 
 .section.-sobre{
-    background-color: #2F4F4F;
     justify-content: center;
 }
 
 .section.-skills{
-    background-image: url(../../assets/img/Group\ 1\ \(1\).png)
+    background-image: url(../../assets/img/test-background-skills.png);
+    background-position: center;
 }
 
 .section .main-title{
