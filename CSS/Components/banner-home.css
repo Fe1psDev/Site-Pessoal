@@ -1,11 +1,9 @@
 .banner-home {
-    background-color: #000;
-    background-image: url(../../assets/img/png-ícone-opaco.png);
+    background-image: url(../../assets/img/test-2-background-banner.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: cover;
+    height: 90vh;
     background-position: center center;
-    padding: 110px;
-    border-bottom: 3px solid #ccc;
 }
 
 .banner-home .main-title{
@@ -19,4 +17,5 @@
 
 .banner-home .wrapper{
     text-align: justify;
+    padding: 110px;
 }

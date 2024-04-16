@@ -35,6 +35,8 @@
         <link rel="stylesheet" href="CSS/Components/section.css">
         <link rel="stylesheet" href="CSS/Components/perfil-photo.css">
         <link rel="stylesheet" href="CSS/Components/wrapper-sobre.css">
+        <link rel="stylesheet" href="CSS/Components/title-paragraph.css">
+        <link rel="stylesheet" href="CSS/Components/main-footer.css">
 
     </head>
     <body>
@@ -59,19 +61,15 @@
         </section>
 
         <section class="section -sobre">
-            <h2 class="main-title -second">Sobre</h2>
-            <dl>
-                <div class="wrapper-sobre">
-                    <dt class="main-paragraph -sobre">
+            <div class="wrapper-sobre">
+                <div class="title-paragraph">
+                    <h2 class="main-title -second"><strong>Sobre</strong></h2>
+                    <p1 class="main-paragraph -sobre">
                         Olá! Eu sou Luiz Felipe, um jovem apaixonado por desenvolvimento web. Com foco em HTML e CSS, estou empenhado em criar experiências online cativantes e visualmente impressionantes. Cada projeto é uma oportunidade para explorar novas técnicas e aprimorar minhas habilidades, buscando sempre a excelência no design e na usabilidades. Estou ansioso para continuar minha jornada de aprendizado e crescimento, enquanto transformo minhas paixões em código e construo um portfólio que reflete minha dedicação ao mundo da web development.
-                    </dt>
-
-                    <figure>
-                        <img class="perfil-photo" src="assets/img/Perfil.jpeg">
-                    </figure>
+                    </p1>
                 </div>
-                
-            </dl>
+                    <img class="perfil-photo" src="assets/img/Perfil.jpeg">
+                </div>
         </section>
 
         <section class="section -skills">
@@ -79,15 +77,21 @@
 
             <div class="wrapper-skill">
 
-                <img class="icon" src="assets/img/html5-logo.svg" alt="Logo do HTML5">
+                <div class="title-icon">
+                    <h3 class="main-paragraph -top">HTML</h3>
+                    <img class="icon" src="assets/img/html5-logo.svg" alt="Logo do HTML5">
+                </div>
 
-                <img class="icon" src="assets/img/css3-logo.svg" alt="Logo do CSS3">
+                <div class="title-icon">
+                    <h3 class="main-paragraph -top">CSS</h3>
+                    <img class="icon" src="assets/img/css3-logo.svg" alt="Logo do CSS3">
+                </div>
 
             </div>
         </section>
 
         <section class="section -projects">
-            <h2 class="main-title -second">Projetos</h2>
+            <h2 class="main-title -second"><strong>Projetos</strong></h2>
             <div class="wrapper-card">
                 <a href="https://fe1psdev.github.io/Site-Pessoal/">
                     <figure class="card-project -felipe-oliveira">
@@ -97,6 +101,15 @@
             </div>
 
         </section>
+
+        <footer class="main-footer">
+            <a class="actions" href="https://wa.me/qr/PMN63B7RQJFOE1" target="_blank">
+                <img src="assets/img/whatsapp.png" alt="Logo do Whatsapp">
+            </a>
+            <a class="actions" href="https://www.instagram.com/made_felipe?igsh=bDZjZWRjM2NpaG8=" target="_blank">
+                <img src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        </footer>
 
     </body>
 </html>

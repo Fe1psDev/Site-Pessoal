@@ -7,4 +7,10 @@
 
 .main-paragraph.-sobre{
     line-height: 1.3;
+    text-align: justify;
+}
+
+.main-paragraph.-top{
+    text-align: center;
+    
 }
