@@ -2,7 +2,8 @@
     background-image: url(../../assets/img/test-2-background-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-position: center center;
 }
 
